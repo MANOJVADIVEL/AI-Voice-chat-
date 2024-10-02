@@ -1,5 +1,7 @@
-streamlit
-SpeechRecognition
-pyttsx3
-pyautogui
-webbrowser
+streamlit==1.25.0
+SpeechRecognition==3.8.1
+pyttsx3==2.90
+pyautogui==0.9.55
+pyobjc==9.1  # Only required for macOS users, can be omitted otherwise
+pypiwin32==223  # Only required for Windows users
+webbrowser==0.2
